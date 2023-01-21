@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projet Git Responsive</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js" defer></script> -->
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <header>
@@ -153,8 +154,18 @@
 
 
     <section class="sect6">
-        <h2>Business And Marketing</h2>
-        <p>ullam mauris nibh, pellentesque quis tincidunt eu, tincidunt sed nulla, sit amet tristique elit finibus.</p>
+        <h2>Les communes de France</h2>
+        <p>Explorez les codes postaux de France et découvrez les communes correspondant </p>
+        <form>
+            <div class="form-group" >
+              <label for="CP">Code Postal</label>
+              <input type="text" maxlength="5" id="codeP">
+          </form>
+          <div class=containerList>
+            <h3>Les communes correspondant au code postal</h3>
+            <div class="ville"></div>
+            </div> 
+        
         <a href="">VIEW MORE</a>
     </section>
 
@@ -163,6 +174,7 @@
     </footer>
     
     
+    <script src="./script.js"></script> 
 
 </body>
 </html>

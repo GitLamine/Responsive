@@ -623,3 +623,43 @@ footer p {
         margin: 1cm 0;
     }
 }
+.form-group{
+    padding: 1cm;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-group input
+{
+    border: 4px;
+    border-style:groove ;
+    padding: 4px;
+    width: 5cm;
+    margin: 1rem;
+}
+.containerList
+{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+.containerList h3{
+    align-self: center;
+    text-align: center;
+    font-size: 19px;
+    padding: 1rem;
+}
+.ville{
+    /* border: 2px solid rebeccapurple; */
+    margin-left: 1rem;
+}
+.ville li
+{
+    margin: 1rem;
+    list-style: circle;
+}
